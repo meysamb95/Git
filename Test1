@@ -15,4 +15,3 @@ if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
 }
 
-export default {
