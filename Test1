@@ -21,5 +21,3 @@ export default {
 	 * @param {import("@cloudflare/workers-types").ExecutionContext} ctx
 	 * @returns {Promise<Response>}
 	 */
-	async fetch(request, env, ctx) {
-		try {
