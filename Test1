@@ -50,9 +50,3 @@ export default {
 			/** @type {Error} */ let e = err;
 			return new Response(e.toString());
 		}
-	},
-};
-
-
-
-	
