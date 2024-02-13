@@ -37,16 +37,4 @@ export default {
 							status: 200,
 							headers: {
 								"Content-Type": "text/plain;charset=utf-8",
-							}
-						});
-					}
-					default:
-						return new Response('Not found', { status: 404 });
-				}
-			} else {
-				return await vlessOverWSHandler(request);
-			}
-		} catch (err) {
-			/** @type {Error} */ let e = err;
-			return new Response(e.toString());
-		}
+							
