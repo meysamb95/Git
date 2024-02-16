@@ -14,7 +14,3 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
 }
-export default {
-/**
-	 
-							
