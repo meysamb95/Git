@@ -49,6 +49,4 @@ export default {
 		} catch (err) {
 			/** @type {Error} */ let e = err;
 			return new Response(e.toString());
-		}
-	},
-};
+	
