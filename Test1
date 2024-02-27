@@ -8,11 +8,3 @@ let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 let proxyIP = '';
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg=';
-
-
-if (!isValidUUID(userID)) {
-	throw new Error('uuid is not valid');
-}
-
-export default {
-	
