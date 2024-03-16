@@ -93,7 +93,7 @@ async function vlessOverWSHandler(request) {
 				return udpStreamWrite(chunk);
 			}
 			if (remoteSocketWapper.value) {
-				const writer = remoteSocketWapper.value.writable.getWriter()
+		
 				await writer.write(chunk);
 				writer.releaseLock();
 				return;
