@@ -9,13 +9,6 @@ let proxyIP = '';
 
 
 if (!isValidUUID(userID)) {
-	throw new Error('uuid is not valid');
-}
-
-export default {
-	/**
-	 * @param {import("@cloudflare/workers-types").Request} request
-	 * @param {{UUID: string, PROXYIP: string}} env
 	 * @param {import("@cloudflare/workers-types").ExecutionContext} ctx
 	 * @returns {Promise<Response>}
 	 */
