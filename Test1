@@ -5,10 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // How to generate your own UUID:
 
 if (!isValidUUID(userID)) {
-	 * @param {import("@cloudflare/workers-types").ExecutionContext} ctx
-	 * @returns {Promise<Response>}
-	 */
-	async fetch(request, env, ctx) {
+	
 		try {
 			userID = env.UUID || userID;
 			proxyIP = env.PROXYIP || proxyIP;
