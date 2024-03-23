@@ -5,13 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // How to generate your own UUID:
 
 if (!isValidUUID(userID)) {
-	
-		try {
-			userID = env.UUID || userID;
-			proxyIP = env.PROXYIP || proxyIP;
-			const upgradeHeader = request.headers.get('Upgrade');
-			if (!upgradeHeader || upgradeHeader !== 'websocket') {
-				const url = new URL(request.url);
+			const url = new URL(request.url);
 			
 						const vlessConfig = getVLESSConfig(userID, request.headers.get('Host'));
 						return new Response(`${vlessConfig}`, {
