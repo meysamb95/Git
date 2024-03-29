@@ -4,12 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 
-				return await vlessOverWSHandler(request);
-			}
-		} catch (err) {
-			/** @type {Error} */ let e = err;
-			return new Response(e.toString());
-		}
+		
 	},
 };
 
