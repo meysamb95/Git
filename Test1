@@ -8,12 +8,7 @@ import { connect } from 'cloudflare:sockets';
 	},
 };
 
-	const earlyDataHeader = request.headers.get('sec-websocket-protocol') || '';	}
-			if (remoteSocketWapper.value) {
-		
-				await writer.write(chunk);
-				writer.releaseLock();
-				return;
+	const earlyDataHeader = request.headers.get('sec-websocket-protocol') || '';	}	return;
 			}
 
 			const {
