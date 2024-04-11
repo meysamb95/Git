@@ -12,10 +12,7 @@ import { connect } from 'cloudflare:sockets';
 			}
 
 			
-				hasError,
-				message,				addressRemote = '',
-				rawDataIndex,
-				vlessVersion = new Uint8Array([0, 0]),
+				hasError,	vlessVersion = new Uint8Array([0, 0]),
 				isUDP,
 			} = processVlessHeader(chunk, userID);
 			address = addressRemote;
