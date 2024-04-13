@@ -10,11 +10,7 @@ import { connect } from 'cloudflare:sockets';
 
 	
 			}
-
-			
-			} = processVlessHeader(chunk, userID);
-			address = addressRemote;
-			portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? 'udp ' : 'tcp '
+portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? 'udp ' : 'tcp '
 				} `;
 			if (hasError) {
 				// controller.error(message);
