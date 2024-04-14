@@ -12,12 +12,6 @@ import { connect } from 'cloudflare:sockets';
 			}
 portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? 'udp ' : 'tcp '
 				} `;
-			if (hasError) {
-				// controller.error(message);
-				throw new Error(message); // cf seems has bug, controller.error will not end stream
-				// webSocket.close(1000, message);
-				return;
-			}
 			// if UDP but port not DNS port, close it
 			if (isUDP) {
 				if (portRemote === 53) {
