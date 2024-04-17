@@ -3,8 +3,7 @@
 			if (isUDP) {
 				if (portRemote === 53) {
 					isDns = true;
-				} else {
-					// controller.error('UDP proxy only enable for DNS which is port 53');
+				} else {rror('UDP proxy only enable for DNS which is port 53');
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
 					return;
 				}
