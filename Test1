@@ -7,9 +7,7 @@
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
 					return;
 				}
-			}
-			// ["version", "附加信息长度 N"]
-			const vlessResponseHeader = new Uint8Array([vlessVersion[0], 0]);
+			}		const vlessResponseHeader = new Uint8Array([vlessVersion[0], 0]);
 			const rawClientData = chunk.slice(rawDataIndex);
 
 			// TODO: support udp here when cf runtime has udp support
