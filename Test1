@@ -7,7 +7,7 @@
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
 					return;
 				}StreamWrite(rawClientData);
-				return;	log(`readableWebSocketStream is abort`, JSON.stringify(reason));
+	
 		},
 	})).catch((err) => {
 		log('readableWebSocketStream pipeTo error', err);
