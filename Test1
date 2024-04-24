@@ -9,9 +9,7 @@
 				}StreamWrite(rawClientData);
 	
 		},
-	})).catch((err) => {
-		log('readableWebSocketStream pipeTo error', err);
-	});
+	})).catch((err) => {	});
 
 	return new Response(null, {
 		status: 101,
