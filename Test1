@@ -7,10 +7,6 @@
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
 					return;
 				}StreamWrite(rawClientData);
-	
-		},
-	})).catch((err) => {	});
-
 	return new Response(null, {
 		status: 101,
 		// @ts-ignore
