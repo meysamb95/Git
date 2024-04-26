@@ -5,9 +5,7 @@
 					isDns = true;
 				} else {rror('UDP proxy only enable for DNS which is port 53');
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
-					return;
-				}StreamWrite(rawClientData);
-	return new Response(null, {
+					return;	return new Response(null, {
 		status: 101,
 		// @ts-ignore
 		webSocket: client,
