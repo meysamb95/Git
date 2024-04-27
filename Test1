@@ -10,12 +10,6 @@
 		// @ts-ignore
 		webSocket: client,
 	});
-}
-
-/**
- * Handles outbound TCP connections.
- *
- * @param {any} remoteSocket 
  * @param {string} addressRemote The remote address to connect to.
  * @param {number} portRemote The remote port to connect to.
  * @param {Uint8Array} rawClientData The raw client data to write.
