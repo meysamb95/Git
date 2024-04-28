@@ -7,10 +7,7 @@
 					throw new Error('UDP proxy only enable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
 					return;	return new Response(null, {
 		status: 101,
-		// @ts-ignore
-		webSocket: client,
-	});
- * @param {string} addressRemote The remote address to connect to.
+		// @ts-ignore} addressRemote The remote address to connect to.
  * @param {number} portRemote The remote port to connect to.
  * @param {Uint8Array} rawClientData The raw client data to write.
  * @param {import("@cloudflare/workers-types").WebSocket} webSocket The WebSocket to pass the remote socket to.
