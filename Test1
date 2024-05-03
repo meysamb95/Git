@@ -9,7 +9,7 @@
 		// @ts-ignore} addressRemote The remote address to connect to.
  * @param {number} portRemote The remote port to connect to.
  * @param {Uint8Array} rawClientData The raw client data to write.te socket.
- */tBound(remoteSocket, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log,) {
+
 	async function connectAndWrite(address, port) {
 		/** @type {import("@cloudflare/workers-types").Socket} */
 		const tcpSocket = connect({
