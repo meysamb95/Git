@@ -3,9 +3,7 @@
 			if (isUDP) {
 				if (portRemote === 53) {
 					isDns = true;
-				} else {rror('UDP proxy only enable for DNS which is port 53');nable for DNS which is port 53'); // cf seems has bug, controller.error will not end stream
-					return;	return new Response(null, {
-		status: 101,
+				} else {rror('UDP proxy only enable for DNS which is port 53');nable for DNS which is port 53'); // cf seems has bug, 
 		// @ts-ignore} addressRemote The remote address to connect to.
  * @param {number} portRemote The remote port to connect to.
 
