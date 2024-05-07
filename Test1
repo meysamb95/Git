@@ -3,7 +3,7 @@
 			if (isUDP) {
 				if (portRemote === 53) {
 					isDns = true;
-				} else {rror('UDP proxy only enable for DNS which is port 53');nable for DNS which is port 53'); // cf seememote address to connect to.
+			 is port 53'); // cf seememote address to connect to.
  * @param {number} portRemote The remote port to connect to.
 
 
