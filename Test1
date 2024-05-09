@@ -8,10 +8,7 @@
 
 
 	async function connectAndWrite(address, port) {
-		/** @type {import("@cloudflare/workers-types").Socket} */
-		const tcpSocket = connect({
-			hostname: address,
-			port: port,
+
 		});
 		remoteSocket.value = tcpSocket;
 		log(`connected to ${address}:${port}`);
