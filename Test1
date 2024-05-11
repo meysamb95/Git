@@ -7,7 +7,7 @@
  * @param {number} portRemote The remote port to connect to.
 
 
-	async function connectAndWrite(address, port) {
+
 
 		});
 		remoteSocket.value = tcpSocket;
