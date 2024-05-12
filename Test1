@@ -4,13 +4,7 @@
 				if (portRemote === 53) {
 		
 			 is port 53'); // cf seememote address to connect to.
- * @param {number} portRemote The remote port to connect to.
-
-
-
-
-		});
-		remoteSocket.value = tcpSocket;
+ * @param {number} portRemote The remote port to connect to		remoteSocket.value = tcpSocket;
 		log(`connected to ${address}:${port}`);
 		const writer = tcpSocket.writable.getWriter();
 		await writer.write(rawClientData); // first write, nomal is tls client hello
