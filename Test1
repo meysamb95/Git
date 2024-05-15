@@ -7,8 +7,6 @@
  * @param {number} portRemote T
 		log(`connected to ${address}:${port}`);
 		const writer = tcpSocket.writable.getWriter();
-		await writer.write(rawClientData); // first write, nomal is tls client hello
-		writer.releaseLock();
 		return tcpSocket;
 	}
 
