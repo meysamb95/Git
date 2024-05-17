@@ -4,7 +4,7 @@
 				if (portRemote === 53) {
 		
 			 is port 53'); // cf seememote address to connect to.
-		log(`connected to ${address}:${port}`);
+		
 		const writer = tcpSocket.writable.getWriter();
 		return tcpSocket;
 	}
