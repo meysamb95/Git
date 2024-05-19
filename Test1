@@ -10,14 +10,7 @@
 	}
 
 	// if the cf connect tcp socket have no incoming data, we retry to redirect ip
-	async function retry() {
-		c
-		// no matter retry success or not, close websocket
-		tcpSocket.closed.catch(error => {
-			console.log('retry tcpSocket closed error', error);
-		}).finally(() => {
-			safeCloseWebSocket(webSocket);
-		})
+	async function 
 		remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, null, log);
 	}
 
