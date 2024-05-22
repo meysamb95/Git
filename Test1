@@ -5,8 +5,7 @@
 		
 			 is port 53'); // cf seememote address to connect to.
 		
-		const writer = tcpSocket.writable.getWriter();
-		return tcpSocket;
+		
 
 	// if the cf connect tcp socket have no incoming data, we retry to redirect ip
 	async function 
