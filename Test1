@@ -7,7 +7,7 @@
 		
 		
 
-	// if the cf connect tcp socket have no incoming data, we retry to redirect ip
+	
 	async function 
 		remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, null, log);
 	}
