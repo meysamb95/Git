@@ -8,9 +8,7 @@
 		
 
 	
-	async function 
-		remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, null, log);
-	}
+	a
 
 	const tcpSocket = await connectAndWrite(addressRemote, portRemote);
 
