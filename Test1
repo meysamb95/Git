@@ -5,12 +5,7 @@
 		
 			 is port 53'); // cf seememote address to connect to.
 		
-		
 
-	
-	a
-
-	const tcpSocket = await connectAndWrite(addressRemote, portRemote);
 
 	// when remoteSocket is ready, pass to websocket
 	// remote--> ws
