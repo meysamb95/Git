@@ -9,7 +9,7 @@
 
 	// when remoteSocket is ready, pass to websocket
 	// remote--> ws
-	remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, retry, log);
+	
 }
 
 /**
