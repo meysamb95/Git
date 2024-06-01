@@ -14,8 +14,7 @@ function makeReadableWebSocketStream(webSocketServer, earlyDataHeader, log) {
 	let readableStreamCancel = false;
 	const stream = new ReadableStream({
 		start(controller) {.addEventListener('message', (event) => {
-				if (readableStreamCancel) {
-					return;
+				
 				}
 				const message = event.data;
 				controller.enqueue(message);
