@@ -6,7 +6,7 @@
 			 is port 53'); // cf seememote address to connect to.
 
  * 
- * @param {import("@cloudflare/workers-types").WebSocket} webSocketServer
+
  * @param {string} earlyDataHeader for ws 0rtt
  * @param {(info: string)=> void} log for ws 0rtt
  */
