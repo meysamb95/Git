@@ -4,7 +4,7 @@
 				if (portRemote === 53) {
 		
 		
- {(info: string)=> void} log for ws 0rtt
+
  */
 
 	let readableStreamCancel = false;= event.data;
