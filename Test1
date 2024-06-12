@@ -9,9 +9,7 @@
 				controller.enqueue(message);
 			});
 
-			
-			// However, the server -> client stream is still open until you call close() on the server side.
-			// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
+				// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
 			webSocketServer.addEventListener('close', () => {
 				// client send close, need close server
 				// if stream is cancel, skip controller.close
