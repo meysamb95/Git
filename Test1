@@ -1,11 +1,7 @@
 
 			// if UDP but port not DNS port, close it
 			if (isUDP) {
-				if (portRemote === 53) {
-		
-		
-
- */bleStreamCancel = false;= event.data;
+				i */bleStreamCancel = false;= event.data;
 				controller.enqueue(message);
 			});
 
