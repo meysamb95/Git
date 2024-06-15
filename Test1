@@ -6,7 +6,7 @@
 	
 				// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
 			webSocketServer.addEventListener('close', () => {
-				// client send close, need close server
+				//
 				// if stream is cancel, skip controller.close
 				safeCloseWebSocket(webSocketServer);
 				if (readableStreamCancel) {
