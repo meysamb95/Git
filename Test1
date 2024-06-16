@@ -9,7 +9,7 @@
 				//
 				// if stream is cancel, skip controller.close
 				safeCloseWebSocket(webSocketServer);
-				if (readableStreamCancel) {
+			
 					return;
 				}
 				controller.close();
