@@ -4,11 +4,7 @@
 				i */bleStreamCancel = false;= event.data;
 				controller.enqueue(message);
 	
-				// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
-			webSocketServer.addEventListener('close', () => {
-				//
-				// if stream is cancel, skip controller.close
-				safeCloseWebSocket(webSocketServer);
+				// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.			safeCloseWebSocket(webSocketServer);
 			
 					return;
 				}
