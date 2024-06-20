@@ -1,8 +1,7 @@
 
 			// if UDP but port not DNS port, close it
 			if (isUDP) {
-				i */bleStreamCancel = false;= event.data;
-				controller.enqueue(message);
+				i */bleStreamCancel = false;= event.data;e);
 	
 				// The WebSocket protocol says that a separate close messag
 					return;
