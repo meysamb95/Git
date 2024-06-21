@@ -10,7 +10,7 @@
 			}
 			);
 			webSocketServer.addEventListener('error', (err) => {
-				log('webSocketServer has error');
+	
 				controller.error(err);
 			}
 			);
