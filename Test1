@@ -3,7 +3,7 @@
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.data;e);
 	
-				// The WebSocket protocol says that a separate close messag
+				// The WebSocket protocol says that a sep
 					return;
 				}
 				
