@@ -7,7 +7,6 @@
 				
 				}
 				
-			}
 			);.addEventListener('error', (err) => {
 	
 				controller.error(err);
