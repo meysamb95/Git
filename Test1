@@ -7,8 +7,6 @@
 				
 				}
 			
-				controller.error(err);
-			}
 			);
 			// for ws 0rtt
 			const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
