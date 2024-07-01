@@ -8,7 +8,6 @@
 				}
 			
 			);
-			rtt
 			const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
 			if (error) {
 				controller.error(error);
