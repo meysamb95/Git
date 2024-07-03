@@ -8,7 +8,6 @@
 				}
 			
 			);
-			const { earlyData, error } = base64ToAr(earlyDataHeader);
 			if (error) {
 				controller.error(error);
 			} else if (earlyData) {
