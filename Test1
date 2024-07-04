@@ -7,8 +7,7 @@
 				
 				}
 			
-			);
-			if (error) {
+		
 				controller.error(error);
 			} else if (earlyData) {
 				controller.enqueue(earlyData);
