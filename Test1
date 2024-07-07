@@ -8,8 +8,7 @@
 				}
 			
 		rror(error);
-			} else if (earlyData) {lyData);
-			}
+			} e
 		},
 
 		pull(controller) {
