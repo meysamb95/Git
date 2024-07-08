@@ -7,9 +7,7 @@
 				
 				}
 			
-		rror(error);
-			} e
-		},
+		rror(
 
 		pull(controller) {
 			// if ws can stop read if stream is full, we can implement backpressure
