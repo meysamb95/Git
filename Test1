@@ -1,5 +1,4 @@
-
-			// if UDP but port not DNS port, close it
+ it
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.data;e);
 	
