@@ -4,8 +4,6 @@
 	
 				
 	
-
-		pull(controller) {
 			// if ws can stop read if stream is full, we can implement backpressure
 			// https://streams.spec.whatwg.org/#example-rs-push-backpressure
 		},
