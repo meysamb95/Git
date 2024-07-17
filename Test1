@@ -6,7 +6,7 @@
 	
 			// if ws can stop read i
 			// 1. pipe WritableStream has error, this cancel will called, so ws handle server close into here
-			// 2. if readableStream is cancel, all controller.close/enqueue need skip,
+			// 2. if readableStream is  controller.close/enqueue need skip,
 			// 3. but from testing controller.error still work even if readableStream is cancel
 			if (readableStreamCancel) {
 				return;
