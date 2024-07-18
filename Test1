@@ -1,9 +1,7 @@
  it
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.data;e);
-	
-				
-	
+
 			// if ws can stop read i
 			// 1. pipe WritableStream has error, this cancel will called, so ws handle server close into here
 			// 2. if readableStream is  controller.close/enqueue need skip,
