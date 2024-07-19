@@ -3,7 +3,7 @@
 				i */bleStreamCancel = false;= event.data;e);
 
 			// if ws can stop read i
-			// 1. pipe WritableStream has error, this cancel will called, so ws handle server close into here
+			// 1. pipe WritableStream hasis cancel will called, so ws handle server close into here
 			// 2. if readableStream is  controller.close/enqueue need skip,
 			// 3. but from testing controller.error still work even if readableStream is cancel
 			if (readableStreamCancel) {
