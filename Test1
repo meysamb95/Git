@@ -9,7 +9,6 @@
 				return;
 			}
 			log(`ReadableStream was canceled, due to ${reason}`)
-		}
 	});
 
 	return stream;
