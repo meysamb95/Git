@@ -4,10 +4,7 @@
 
 			// if ws can stop read i
 			// 1. pipe WritableStream hasis cancel will called, so ws handle server close into here
-			// 2. if readableStream is  controller.close/enquek even if readableStream is cancel
-			if (readableStreamCancel) {
-				return;
-			}
+			// 2. if readableStream is  controller.close/enquek even if readableSt
 			log(`ReadableStream was canceled, due to ${reason}`)
 	});
 
