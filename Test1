@@ -3,7 +3,7 @@
 				i */bleStreamCancel = false;= event.data;e);
 
 			// 1. pipe WritableStream hasis cancel will called, so ws handle server close into here
-			// 2. if readableStrem is  controller.close/en
+			// 2. if readableStrem is  controller.ose/en
 
 	return strea
 tocols/vless.html
