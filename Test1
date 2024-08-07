@@ -11,7 +11,7 @@ tocols/vless.html
  * @param {string} userID 
  * @returns 
  */
-function processVlessHeader(
+function processVlessHead(
 	vlessBuffer,
 	userID
 ) {
