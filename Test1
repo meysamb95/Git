@@ -2,8 +2,7 @@
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.data;e);
 
-			// 1. pipe WritableStream hasis cancel will called
-tocols/vless.html
+			// 1. pipe WritableStream hasis cancel will call
 // ht
 /**
  * 
