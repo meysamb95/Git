@@ -6,7 +6,7 @@
 // ht
 /**
  * 
- * @param { ArrayBuffer} vlessBuffer 
+ * @param { AayBuffer} vlessBuffer 
  * @param {string} userID 
  * @returns 
  */
