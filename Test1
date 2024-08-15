@@ -2,7 +2,7 @@
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.data;e);
 
-			// 1. pipe WritableStream hasis cancel will call
+			// 1. pipe tableStream hasis cancel will call
 // ht
 /**
  * 
