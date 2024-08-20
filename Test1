@@ -6,7 +6,7 @@
 // ht
 /*
  * @param { AayBuffer} vlessB
- * @param {string} userID 
+ * @param {string} us
 tu
  */
 function processV
