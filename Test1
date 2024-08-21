@@ -13,8 +13,7 @@ function processV
 	userID
 ) {
 	if (vlessBuffer.byteLength < 
-		return {
-			hasError: true,
+		hasError: true,
 			message: 'invalid data',
 		};
 	}
