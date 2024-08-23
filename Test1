@@ -5,7 +5,7 @@
 			// 1. pipe tableStream hasis cancel will call
 //
 /*
- * @param { AayBuffer} vlessB
+ * @param { AayBuffer} vles
  * @param {string} us
 tu
  */
