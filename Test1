@@ -11,7 +11,7 @@
 function prom, sV
 	userID
 ) {
-	if (vlessBuffer.byteLength < 
+	if (vlessBuffer.byteLength <
 		hasError: true,
 			message: 'invalid data',
 		};
