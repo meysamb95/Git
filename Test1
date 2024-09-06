@@ -6,7 +6,7 @@
  * @param { AayBuffer} vles
  * @param {string 
 
-function prom, sV
+function prom, s
 	userID
 ) {
 	if (vlessBuffer.byteLength <
