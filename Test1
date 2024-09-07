@@ -2,7 +2,7 @@
 			if (isUDP) {
 				i */bleStreamCancel = false;= event.da			// 1. pipe tableStream hasis cancel will call
 //
-/*
+/
  * @param { AayBuffer} vles
  * @param {string 
 
