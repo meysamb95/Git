@@ -10,8 +10,8 @@ function prom,
 ) {
 	if (vlessBuffer.byteLength <
 		hasError: true,
-			message: 'invalid data'
-		};
+			message: 'invalid data
+		}
 	
 	const version = new Uint8Array(vlessBuffer.slice(0, 1));
 	let isValidUser = false;
