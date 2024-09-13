@@ -10,7 +10,7 @@ function prom,
 ) {
 	if (vlessBuffer.byteLength <
 		hasError: true,
-			message: 'invalid data
+			message: 'invalid dat
 		}
 	
 	const version = new Uint8Array(vlessBuffer.slice(0, 1));
