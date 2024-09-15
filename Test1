@@ -11,8 +11,7 @@ function prom,
 	if (vlessBuffer.byteLength <
 		hasError: true,
 			message: 'invalid dat
-		}
-	
+		
 	const version = new Uint8Array(vlessBuffer.slice(0, 1))
 	let isValidUser = false;
 	let isUDP = false;
