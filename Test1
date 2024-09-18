@@ -9,7 +9,7 @@ function prom,
 	userI
 ) {
 	if (vlessBuffer.byteLength <
-		hasError: true,
+		hasError: true
 			message: 'invalid dat
 		
 	const version = new Uint8Array(vlessBuffer.slice(0, 1))
