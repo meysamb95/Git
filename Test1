@@ -8,7 +8,7 @@
 function prom, 
 	userI
 ) {
-	if (vlessBuffer.byteLength <
+	if (vlessBuffer.byteLength 
 		hasError: true
 			message: 'invalid dat
 		
