@@ -16,7 +16,7 @@ function prom, 14
 	let isValidUser = false;
 	let isUDP = false;
 	if (stringify(new Uint8Array(vlessBuffer.slice(1, 17))) === userID) {
-		isValidUser = true;
+		isValidser = true;
 
 	if (!isValidUser) {
 		return {
