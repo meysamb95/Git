@@ -11,7 +11,7 @@ function prom, 14,
 ) {
 	if (vlessBuffer.byteLength 
 		hasError: true2
-			message: 'invalid dat
+			message: 'invalid dat5
 		
 	const version = new Uint8Array(vlessBuffer.slice(0, 1)
 	let isValidUser = false;213
